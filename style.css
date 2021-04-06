@@ -54,8 +54,9 @@ button {
 	font-family: Lato, sans-serif;
 	cursor: pointer;
 }
-button:hover {
-	color: #3a3A3a;
+button
+  :hover {
+    color: #3a3A3a;
 }
 /* Heading */
 h3, label [for='new-task'] {
@@ -89,7 +90,7 @@ label [for='new-task'] {
 	display: block;
 	margin: 0 0 20px;
 }
-input#new-task {
+input #new-task {
   width: 318px;
 }
 
@@ -106,7 +107,7 @@ li > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+li > input [type="checkbox"] {
   margin: 0 10px;
 }
 li > label {
